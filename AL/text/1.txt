@@ -1,0 +1,54 @@
+2021-11-01 10:56:03,103 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-11-01 10:56:03,103 -- _new_conn -- DEBUG -- Starting new HTTP connection (1): 127.0.0.1:54633
+2021-11-01 10:56:03,877 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session HTTP/1.1" 200 789
+2021-11-01 10:56:03,878 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:03,878 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/url {"url": "https://www.1688.com/"}
+2021-11-01 10:56:09,044 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/url HTTP/1.1" 200 14
+2021-11-01 10:56:09,044 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:09,047 -- test02 -- INFO -- 开始
+2021-11-01 10:56:09,047 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element {"using": "xpath", "value": "//*[@id=\"pc-new-main-box\"]/div[1]/div[2]/ul/li[1]/div/span/div/div/a[1]"}
+2021-11-01 10:56:09,057 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element HTTP/1.1" 200 88
+2021-11-01 10:56:09,057 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:09,058 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element/b3a96b5d-6c89-43e1-ad8e-d3ffe5815b8f/click {"id": "b3a96b5d-6c89-43e1-ad8e-d3ffe5815b8f"}
+2021-11-01 10:56:09,313 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element/b3a96b5d-6c89-43e1-ad8e-d3ffe5815b8f/click HTTP/1.1" 200 14
+2021-11-01 10:56:09,313 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:09,314 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/window/maximize {}
+2021-11-01 10:56:09,441 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/window/maximize HTTP/1.1" 200 52
+2021-11-01 10:56:09,442 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:09,442 -- _request -- DEBUG -- GET http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/window/handles {}
+2021-11-01 10:56:09,444 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "GET /session/15d12ab36aa31d3002091966691a5695/window/handles HTTP/1.1" 200 99
+2021-11-01 10:56:09,444 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:09,444 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/window {"handle": "CDwindow-84BE69D42C86902E3AC39F4D8F32B66D"}
+2021-11-01 10:56:09,446 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/window HTTP/1.1" 200 14
+2021-11-01 10:56:09,447 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:11,455 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element {"using": "css selector", "value": ".desc-text"}
+2021-11-01 10:56:22,527 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element HTTP/1.1" 200 88
+2021-11-01 10:56:22,527 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:22,528 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element/58b2a1d0-4f4a-417d-957b-9c5111e6b801/click {"id": "58b2a1d0-4f4a-417d-957b-9c5111e6b801"}
+2021-11-01 10:56:22,618 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element/58b2a1d0-4f4a-417d-957b-9c5111e6b801/click HTTP/1.1" 200 14
+2021-11-01 10:56:22,618 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:22,619 -- _request -- DEBUG -- GET http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/window/handles {}
+2021-11-01 10:56:22,623 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "GET /session/15d12ab36aa31d3002091966691a5695/window/handles HTTP/1.1" 200 143
+2021-11-01 10:56:22,623 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:22,624 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/window {"handle": "CDwindow-6C531854AC4E3E572274DE47D217CA90"}
+2021-11-01 10:56:22,635 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/window HTTP/1.1" 200 14
+2021-11-01 10:56:22,635 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:22,635 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element {"using": "xpath", "value": "//*[@id=\"mod-detail-bd\"]/div[2]/div[13]/div/div/div/div[2]/div[2]/table/tbody/tr[2]/td[4]/div/div/input"}
+2021-11-01 10:56:28,408 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element HTTP/1.1" 200 88
+2021-11-01 10:56:28,408 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:28,408 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element/a0601739-f84c-4e6f-afc6-d830ef618f11/value {"text": "\ue009a", "value": ["\ue009", "a"], "id": "a0601739-f84c-4e6f-afc6-d830ef618f11"}
+2021-11-01 10:56:28,512 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element/a0601739-f84c-4e6f-afc6-d830ef618f11/value HTTP/1.1" 200 14
+2021-11-01 10:56:28,512 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:28,513 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element {"using": "xpath", "value": "//*[@id=\"mod-detail-bd\"]/div[2]/div[13]/div/div/div/div[2]/div[2]/table/tbody/tr[2]/td[4]/div/div/input"}
+2021-11-01 10:56:28,522 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element HTTP/1.1" 200 88
+2021-11-01 10:56:28,522 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:28,523 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element/a0601739-f84c-4e6f-afc6-d830ef618f11/value {"text": "\ue017", "value": ["\ue017"], "id": "a0601739-f84c-4e6f-afc6-d830ef618f11"}
+2021-11-01 10:56:28,548 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element/a0601739-f84c-4e6f-afc6-d830ef618f11/value HTTP/1.1" 200 14
+2021-11-01 10:56:28,548 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:28,548 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element {"using": "xpath", "value": "//*[@id=\"mod-detail-bd\"]/div[2]/div[13]/div/div/div/div[2]/div[2]/table/tbody/tr[2]/td[4]/div/div/input"}
+2021-11-01 10:56:28,558 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element HTTP/1.1" 200 88
+2021-11-01 10:56:28,560 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:28,561 -- _request -- DEBUG -- POST http://127.0.0.1:54633/session/15d12ab36aa31d3002091966691a5695/element/a0601739-f84c-4e6f-afc6-d830ef618f11/value {"text": "2", "value": ["2"], "id": "a0601739-f84c-4e6f-afc6-d830ef618f11"}
+2021-11-01 10:56:28,606 -- _make_request -- DEBUG -- http://127.0.0.1:54633 "POST /session/15d12ab36aa31d3002091966691a5695/element/a0601739-f84c-4e6f-afc6-d830ef618f11/value HTTP/1.1" 200 14
+2021-11-01 10:56:28,606 -- _request -- DEBUG -- Finished Request
+2021-11-01 10:56:28,606 -- test02 -- INFO -- 结束
